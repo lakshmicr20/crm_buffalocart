@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.ProjectMain.extent.ExtentReport"/>
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ProjectMain.Scripts.TestBase"/>
+      <class name="com.ProjectMain.Scripts.LoginTest"/>
+      <class name="com.ProjectMain.Scripts.DashBoardTest"/>
+      <class name="com.ProjectMain.Scripts.ClientTest"/>
+      <class name="com.ProjectMain.Scripts.TaskTest"/>
+      <class name="com.ProjectMain.Scripts.ProjectTest"/>
+       <class name="com.ProjectMain.Scripts.NotesTest"/>
+       <class name="com.ProjectMain.Scripts.TeamTest"/>
+       <class name="com.ProjectMain.Scripts.TicketTest"/>
+       <class name="com.ProjectMain.Scripts.NavigationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

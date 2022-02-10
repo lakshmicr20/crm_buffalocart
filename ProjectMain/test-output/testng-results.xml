@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="60" passed="42" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T08:29:50 IST" name="Suite" finished-at="2022-02-08T08:31:30 IST" duration-ms="99407">
+    <groups>
+      <group name="Sanity Test">
+        <method signature="DashBoardTest.checkDash()[pri:5, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" name="checkDash" class="com.ProjectMain.Scripts.DashBoardTest"/>
+        <method signature="DashBoardTest.checkTask()[pri:6, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" name="checkTask" class="com.ProjectMain.Scripts.DashBoardTest"/>
+        <method signature="LoginTest.verifysigninInvalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" name="verifysigninInvalidEmailInvalidPassword" class="com.ProjectMain.Scripts.LoginTest"/>
+        <method signature="LoginTest.verifysigninValidEmailValidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" name="verifysigninValidEmailValidPassword" class="com.ProjectMain.Scripts.LoginTest"/>
+      </group> <!-- Sanity Test -->
+    </groups>
+    <test started-at="2022-02-08T08:29:50 IST" name="Test" finished-at="2022-02-08T08:31:30 IST" duration-ms="99407">
+      <class name="com.ProjectMain.Scripts.TeamTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:14 IST" name="testBase" finished-at="2022-02-08T08:31:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:14 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.TeamTest@183ec003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkTeamMembers()[pri:26, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:14 IST" name="checkTeamMembers" finished-at="2022-02-08T08:31:15 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTeamMembers -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:15 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTeamMembers status=SUCCESS method=TeamTest.checkTeamMembers()[pri:26, instance:com.ProjectMain.Scripts.TeamTest@183ec003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="sendInvite()[pri:27, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:15 IST" name="sendInvite" finished-at="2022-02-08T08:31:16 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInvite -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:16 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendInvite status=SUCCESS method=TeamTest.sendInvite()[pri:27, instance:com.ProjectMain.Scripts.TeamTest@183ec003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkLeave()[pri:28, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:16 IST" name="checkLeave" finished-at="2022-02-08T08:31:18 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLeave -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TeamTest@183ec003]" started-at="2022-02-08T08:31:18 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLeave status=SUCCESS method=TeamTest.checkLeave()[pri:28, instance:com.ProjectMain.Scripts.TeamTest@183ec003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.TeamTest -->
+      <class name="com.ProjectMain.Scripts.ClientTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:36 IST" name="testBase" finished-at="2022-02-08T08:30:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:36 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.ClientTest@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="overviewCheck()[pri:12, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:36 IST" name="overviewCheck" finished-at="2022-02-08T08:30:38 IST" duration-ms="1927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewCheck -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:38 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=overviewCheck status=SUCCESS method=ClientTest.overviewCheck()[pri:12, instance:com.ProjectMain.Scripts.ClientTest@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="editClient()[pri:13, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:38 IST" name="editClient" finished-at="2022-02-08T08:30:40 IST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editClient -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:40 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editClient status=SUCCESS method=ClientTest.editClient()[pri:13, instance:com.ProjectMain.Scripts.ClientTest@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkImportClient()[pri:14, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:40 IST" name="checkImportClient" finished-at="2022-02-08T08:30:41 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImportClient -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ClientTest@6440112d]" started-at="2022-02-08T08:30:41 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkImportClient status=SUCCESS method=ClientTest.checkImportClient()[pri:14, instance:com.ProjectMain.Scripts.ClientTest@6440112d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.ClientTest -->
+      <class name="com.ProjectMain.Scripts.LoginTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:56 IST" name="testBase" finished-at="2022-02-08T08:29:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:56 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:29:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifysigninValidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:57 IST" name="verifysigninValidEmailInvalidPassword" data-provider="validUserInvalidPass" finished-at="2022-02-08T08:29:58 IST" duration-ms="1124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysigninValidEmailInvalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:58 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:29:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysigninValidEmailInvalidPassword status=SUCCESS method=LoginTest.verifysigninValidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifysigninInvalidEmailValidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:58 IST" name="verifysigninInvalidEmailValidPassword" data-provider="InvalidUserValidPass" finished-at="2022-02-08T08:29:59 IST" duration-ms="1007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysigninInvalidEmailValidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:59 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:29:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysigninInvalidEmailValidPassword status=SUCCESS method=LoginTest.verifysigninInvalidEmailValidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifysigninInvalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:29:59 IST" name="verifysigninInvalidEmailInvalidPassword" data-provider="InvalidUserInvalidPass" finished-at="2022-02-08T08:30:00 IST" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[478956]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysigninInvalidEmailInvalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:30:00 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysigninInvalidEmailInvalidPassword status=SUCCESS method=LoginTest.verifysigninInvalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifysigninValidEmailValidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:30:00 IST" name="verifysigninValidEmailValidPassword" data-provider="ValiduserValidPass" finished-at="2022-02-08T08:30:05 IST" duration-ms="4781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysigninValidEmailValidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8]" started-at="2022-02-08T08:30:05 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysigninValidEmailValidPassword status=SUCCESS method=LoginTest.verifysigninValidEmailValidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.ProjectMain.Scripts.LoginTest@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.LoginTest -->
+      <class name="com.ProjectMain.Scripts.TicketTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:18 IST" name="testBase" finished-at="2022-02-08T08:31:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:18 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkTicket()[pri:29, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:18 IST" name="checkTicket" finished-at="2022-02-08T08:31:19 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTicket -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:19 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTicket status=SUCCESS method=TicketTest.checkTicket()[pri:29, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkBatch()[pri:30, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:19 IST" name="checkBatch" finished-at="2022-02-08T08:31:20 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBatch -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:20 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBatch status=SUCCESS method=TicketTest.checkBatch()[pri:30, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkAddTicket()[pri:31, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:20 IST" name="checkAddTicket" finished-at="2022-02-08T08:31:22 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddTicket -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818]" started-at="2022-02-08T08:31:22 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddTicket status=SUCCESS method=TicketTest.checkAddTicket()[pri:31, instance:com.ProjectMain.Scripts.TicketTest@7d9d0818] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.TicketTest -->
+      <class name="com.ProjectMain.Scripts.NavigationTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.NavigationTest@221a3fa4]" started-at="2022-02-08T08:31:22 IST" name="testBase" finished-at="2022-02-08T08:31:22 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.NavigationTest@221a3fa4]" started-at="2022-02-08T08:31:22 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.NavigationTest@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkNavigate()[pri:32, instance:com.ProjectMain.Scripts.NavigationTest@221a3fa4]" started-at="2022-02-08T08:31:22 IST" name="checkNavigate" finished-at="2022-02-08T08:31:29 IST" duration-ms="7768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavigate -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.NavigationTest@221a3fa4]" started-at="2022-02-08T08:31:29 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkNavigate status=SUCCESS method=NavigationTest.checkNavigate()[pri:32, instance:com.ProjectMain.Scripts.NavigationTest@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.NavigationTest -->
+      <class name="com.ProjectMain.Scripts.TaskTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:41 IST" name="testBase" finished-at="2022-02-08T08:30:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:41 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkList()[pri:15, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:41 IST" name="checkList" finished-at="2022-02-08T08:30:43 IST" duration-ms="2845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkList -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:43 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkList status=SUCCESS method=TaskTest.checkList()[pri:15, instance:com.ProjectMain.Scripts.TaskTest@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkKanban()[pri:16, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:43 IST" name="checkKanban" finished-at="2022-02-08T08:30:46 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkKanban -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:46 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkKanban status=SUCCESS method=TaskTest.checkKanban()[pri:16, instance:com.ProjectMain.Scripts.TaskTest@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkGantt()[pri:17, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:46 IST" name="checkGantt" finished-at="2022-02-08T08:30:48 IST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGantt -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:48 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGantt status=SUCCESS method=TaskTest.checkGantt()[pri:17, instance:com.ProjectMain.Scripts.TaskTest@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkAddTask(java.lang.String,java.lang.String)[pri:18, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:48 IST" name="checkAddTask" data-provider="titleDescription" finished-at="2022-02-08T08:30:54 IST" duration-ms="5602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[As a user, I require fields to add name, client Id, Address, Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddTask -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:54 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddTask status=SUCCESS method=TaskTest.checkAddTask(java.lang.String,java.lang.String)[pri:18, instance:com.ProjectMain.Scripts.TaskTest@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkSaveTask(java.lang.String,java.lang.String)[pri:19, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:30:54 IST" name="checkSaveTask" data-provider="titleDescription" finished-at="2022-02-08T08:31:01 IST" duration-ms="7449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[As a user, I require fields to add name, client Id, Address, Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSaveTask -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TaskTest@31ea9581]" started-at="2022-02-08T08:31:01 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSaveTask status=SUCCESS method=TaskTest.checkSaveTask(java.lang.String,java.lang.String)[pri:19, instance:com.ProjectMain.Scripts.TaskTest@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.TaskTest -->
+      <class name="com.ProjectMain.Scripts.DashBoardTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:05 IST" name="testBase" finished-at="2022-02-08T08:30:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:05 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkDash()[pri:5, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:05 IST" name="checkDash" finished-at="2022-02-08T08:30:05 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDash -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:05 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkDash status=SUCCESS method=DashBoardTest.checkDash()[pri:5, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkTask()[pri:6, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:05 IST" name="checkTask" finished-at="2022-02-08T08:30:08 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTask -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:08 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTask status=SUCCESS method=DashBoardTest.checkTask()[pri:6, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkEvents()[pri:7, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:08 IST" name="checkEvents" finished-at="2022-02-08T08:30:12 IST" duration-ms="3553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEvents -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:12 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkEvents status=SUCCESS method=DashBoardTest.checkEvents()[pri:7, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="postAdd(java.lang.String)[pri:8, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:12 IST" name="postAdd" data-provider="addpost" finished-at="2022-02-08T08:30:32 IST" duration-ms="19847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acknowledgement of task completion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAdd -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:32 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postAdd status=SUCCESS method=DashBoardTest.postAdd(java.lang.String)[pri:8, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="clockOut()[pri:9, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:32 IST" name="clockOut" finished-at="2022-02-08T08:30:34 IST" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clockOut -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:34 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clockOut status=SUCCESS method=DashBoardTest.clockOut()[pri:9, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="clockin()[pri:10, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:34 IST" name="clockin" finished-at="2022-02-08T08:30:35 IST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clockin -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:35 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clockin status=SUCCESS method=DashBoardTest.clockin()[pri:10, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkProgress()[pri:11, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:35 IST" name="checkProgress" finished-at="2022-02-08T08:30:36 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProgress -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879]" started-at="2022-02-08T08:30:36 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:30:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProgress status=SUCCESS method=DashBoardTest.checkProgress()[pri:11, instance:com.ProjectMain.Scripts.DashBoardTest@5890e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.DashBoardTest -->
+      <class name="com.ProjectMain.Scripts.TestBase">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.ProjectMain.Scripts.TestBase@5386659f]" started-at="2022-02-08T08:29:50 IST" name="beforeTest" finished-at="2022-02-08T08:29:56 IST" duration-ms="5949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.TestBase@5386659f]" started-at="2022-02-08T08:29:56 IST" name="testBase" finished-at="2022-02-08T08:29:56 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.TestBase@5386659f]" started-at="2022-02-08T08:29:56 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:29:56 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.TestBase@5386659f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.ProjectMain.Scripts.TestBase@5386659f]" started-at="2022-02-08T08:31:29 IST" name="afterTest" finished-at="2022-02-08T08:31:30 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ProjectMain.Scripts.TestBase -->
+      <class name="com.ProjectMain.Scripts.NotesTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:11 IST" name="testBase" finished-at="2022-02-08T08:31:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:11 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkNote()[pri:23, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:11 IST" name="checkNote" finished-at="2022-02-08T08:31:12 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:12 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkNote status=SUCCESS method=NotesTest.checkNote()[pri:23, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkAddNote()[pri:24, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:12 IST" name="checkAddNote" finished-at="2022-02-08T08:31:14 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:14 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddNote status=SUCCESS method=NotesTest.checkAddNote()[pri:24, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkSearch()[pri:25, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:14 IST" name="checkSearch" finished-at="2022-02-08T08:31:14 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearch -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5]" started-at="2022-02-08T08:31:14 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSearch status=SUCCESS method=NotesTest.checkSearch()[pri:25, instance:com.ProjectMain.Scripts.NotesTest@7c137fd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.NotesTest -->
+      <class name="com.ProjectMain.Scripts.ProjectTest">
+        <test-method signature="testBase()[pri:0, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:01 IST" name="testBase" finished-at="2022-02-08T08:31:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:01 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkProject()[pri:20, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:01 IST" name="checkProject" finished-at="2022-02-08T08:31:02 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProject -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:02 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProject status=SUCCESS method=ProjectTest.checkProject()[pri:20, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkAddProject(java.lang.String,java.lang.String)[pri:21, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:02 IST" name="checkAddProject" data-provider="titleDescription" finished-at="2022-02-08T08:31:06 IST" duration-ms="3237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[As a user, I require fields to add name, client Id, Address, Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddProject -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:06 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddProject status=SUCCESS method=ProjectTest.checkAddProject(java.lang.String,java.lang.String)[pri:21, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkSaveProject(java.lang.String,java.lang.String)[pri:22, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:06 IST" name="checkSaveProject" data-provider="titleDescription" finished-at="2022-02-08T08:31:11 IST" duration-ms="5433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[As a user, I require fields to add name, client Id, Address, Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSaveProject -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef]" started-at="2022-02-08T08:31:11 IST" name="takeScreenShotOnFailure" finished-at="2022-02-08T08:31:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSaveProject status=SUCCESS method=ProjectTest.checkSaveProject(java.lang.String,java.lang.String)[pri:22, instance:com.ProjectMain.Scripts.ProjectTest@231f98ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.ProjectMain.Scripts.ProjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

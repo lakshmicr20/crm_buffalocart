@@ -1,0 +1,289 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>42/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 08 08:29:50 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>99 seconds (99407 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ProjectMain.Scripts.LoginTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.LoginTest@6e9a5ed8</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.checkDash()'><b>checkDash</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ProjectTest.checkAddProject()'><b>checkAddProject</b><br>Test class: com.ProjectMain.Scripts.ProjectTest<br>Parameters: Add Client, As a user, I require fields to add name, client Id, Address, Phone</td>
+<td></td>
+<td>3</td>
+<td>com.ProjectMain.Scripts.ProjectTest@231f98ef</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TicketTest.checkTicket()'><b>checkTicket</b><br>Test class: com.ProjectMain.Scripts.TicketTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.TicketTest@7d9d0818</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.NavigationTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.NavigationTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.NavigationTest@221a3fa4</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.LoginTest.verifysigninValidEmailValidPassword()'><b>verifysigninValidEmailValidPassword</b><br>Test class: com.ProjectMain.Scripts.LoginTest<br>Parameters: admin@admin.com, 123456</td>
+<td></td>
+<td>4</td>
+<td>com.ProjectMain.Scripts.LoginTest@6e9a5ed8</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.clockOut()'><b>clockOut</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>2</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.NotesTest.checkSearch()'><b>checkSearch</b><br>Test class: com.ProjectMain.Scripts.NotesTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.NotesTest@7c137fd5</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.LoginTest.verifysigninInvalidEmailInvalidPassword()'><b>verifysigninInvalidEmailInvalidPassword</b><br>Test class: com.ProjectMain.Scripts.LoginTest<br>Parameters: xyz@gmail.com, 478956</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.LoginTest@6e9a5ed8</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TicketTest.checkBatch()'><b>checkBatch</b><br>Test class: com.ProjectMain.Scripts.TicketTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.TicketTest@7d9d0818</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ClientTest.editClient()'><b>editClient</b><br>Test class: com.ProjectMain.Scripts.ClientTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.ClientTest@6440112d</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TaskTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.TaskTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.TaskTest@31ea9581</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.LoginTest.verifysigninInvalidEmailValidPassword()'><b>verifysigninInvalidEmailValidPassword</b><br>Test class: com.ProjectMain.Scripts.LoginTest<br>Parameters: xyz@gmail.com, 123456</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.LoginTest@6e9a5ed8</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TaskTest.checkAddTask()'><b>checkAddTask</b><br>Test class: com.ProjectMain.Scripts.TaskTest<br>Parameters: Add Client, As a user, I require fields to add name, client Id, Address, Phone</td>
+<td></td>
+<td>5</td>
+<td>com.ProjectMain.Scripts.TaskTest@31ea9581</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TeamTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.TeamTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.TeamTest@183ec003</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ClientTest.checkImportClient()'><b>checkImportClient</b><br>Test class: com.ProjectMain.Scripts.ClientTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.ClientTest@6440112d</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TaskTest.checkKanban()'><b>checkKanban</b><br>Test class: com.ProjectMain.Scripts.TaskTest</td>
+<td></td>
+<td>2</td>
+<td>com.ProjectMain.Scripts.TaskTest@31ea9581</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TaskTest.checkGantt()'><b>checkGantt</b><br>Test class: com.ProjectMain.Scripts.TaskTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.TaskTest@31ea9581</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ClientTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.ClientTest@6440112d</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TaskTest.checkList()'><b>checkList</b><br>Test class: com.ProjectMain.Scripts.TaskTest</td>
+<td></td>
+<td>2</td>
+<td>com.ProjectMain.Scripts.TaskTest@31ea9581</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TicketTest.checkAddTicket()'><b>checkAddTicket</b><br>Test class: com.ProjectMain.Scripts.TicketTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.TicketTest@7d9d0818</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.clockin()'><b>clockin</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ProjectTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.ProjectTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.ProjectTest@231f98ef</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TeamTest.checkLeave()'><b>checkLeave</b><br>Test class: com.ProjectMain.Scripts.TeamTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.TeamTest@183ec003</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.checkEvents()'><b>checkEvents</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>3</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.checkTask()'><b>checkTask</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>3</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TaskTest.checkSaveTask()'><b>checkSaveTask</b><br>Test class: com.ProjectMain.Scripts.TaskTest<br>Parameters: Add Client, As a user, I require fields to add name, client Id, Address, Phone</td>
+<td></td>
+<td>7</td>
+<td>com.ProjectMain.Scripts.TaskTest@31ea9581</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TeamTest.sendInvite()'><b>sendInvite</b><br>Test class: com.ProjectMain.Scripts.TeamTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.TeamTest@183ec003</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.LoginTest.verifysigninValidEmailInvalidPassword()'><b>verifysigninValidEmailInvalidPassword</b><br>Test class: com.ProjectMain.Scripts.LoginTest<br>Parameters: admin@admin.com, 987654</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.LoginTest@6e9a5ed8</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ClientTest.overviewCheck()'><b>overviewCheck</b><br>Test class: com.ProjectMain.Scripts.ClientTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.ClientTest@6440112d</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.NotesTest.checkAddNote()'><b>checkAddNote</b><br>Test class: com.ProjectMain.Scripts.NotesTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.NotesTest@7c137fd5</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.NavigationTest.checkNavigate()'><b>checkNavigate</b><br>Test class: com.ProjectMain.Scripts.NavigationTest</td>
+<td></td>
+<td>7</td>
+<td>com.ProjectMain.Scripts.NavigationTest@221a3fa4</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TeamTest.checkTeamMembers()'><b>checkTeamMembers</b><br>Test class: com.ProjectMain.Scripts.TeamTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.TeamTest@183ec003</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ProjectTest.checkProject()'><b>checkProject</b><br>Test class: com.ProjectMain.Scripts.ProjectTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.ProjectTest@231f98ef</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.checkProgress()'><b>checkProgress</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.NotesTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.NotesTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.NotesTest@7c137fd5</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TicketTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.TicketTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.TicketTest@7d9d0818</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.ProjectTest.checkSaveProject()'><b>checkSaveProject</b><br>Test class: com.ProjectMain.Scripts.ProjectTest<br>Parameters: Add Client, As a user, I require fields to add name, client Id, Address, Phone</td>
+<td></td>
+<td>5</td>
+<td>com.ProjectMain.Scripts.ProjectTest@231f98ef</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.DashBoardTest.postAdd()'><b>postAdd</b><br>Test class: com.ProjectMain.Scripts.DashBoardTest<br>Parameters: Acknowledgement of task completion</td>
+<td></td>
+<td>19</td>
+<td>com.ProjectMain.Scripts.DashBoardTest@5890e879</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.TestBase.testBase()'><b>testBase</b><br>Test class: com.ProjectMain.Scripts.TestBase</td>
+<td></td>
+<td>0</td>
+<td>com.ProjectMain.Scripts.TestBase@5386659f</td></tr>
+<tr>
+<td title='com.ProjectMain.Scripts.NotesTest.checkNote()'><b>checkNote</b><br>Test class: com.ProjectMain.Scripts.NotesTest</td>
+<td></td>
+<td>1</td>
+<td>com.ProjectMain.Scripts.NotesTest@7c137fd5</td></tr>
+</table><p>
+</body>
+</html>
